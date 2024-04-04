@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_payments
+    description: Staged payment data for good deeds
+    columns: 
+      - name: AMOUNT
+        description: amount in cents
+      - name: paymen_status
+        description: '{{doc("paymen_status")}}'
